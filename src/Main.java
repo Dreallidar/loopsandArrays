@@ -46,6 +46,11 @@ public class Main {
         String galas = galas1 + galas2;
         System.out.println( galas);
 
+        System.out.println(" Task 5");
+
+        String pie = "An American in Paris";
+        System.out.println(pie.replace("a","*").replace("A","*"));
+
 
     }
 }
