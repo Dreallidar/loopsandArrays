@@ -70,6 +70,19 @@ public class Main {
         String episode = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
         System.out.println(episode);
         System.out.println(episode.charAt(episode.length()-14));
+        System.out.println( "7tos galas");
+
+
+        System.out.println("Ciklu tema");
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+
+            System.out.println( "end of loops and arrays, bye bye.");
+
+
+        }
+
 
 
     }
