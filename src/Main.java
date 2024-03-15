@@ -1,4 +1,5 @@
 import java.sql.SQLOutput;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,6 +63,13 @@ public class Main {
         System.out.println(life2);
         System.out.println(tiffany2);
         System.out.println(space2);
+        System.out.println("End of task 6");
+
+        System.out.println( "Most likely a shitty attempt at task 7");
+
+        String episode = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
+        System.out.println(episode);
+        System.out.println(episode.charAt(episode.length()-14));
 
 
     }
